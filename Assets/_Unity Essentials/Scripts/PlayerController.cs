@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb; // Reference to player's Rigidbody.
 
+    public float jumpForce = 5.0f;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -17,7 +19,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 
